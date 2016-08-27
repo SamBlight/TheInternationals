@@ -1,0 +1,9 @@
+/Users/Andreas/TheInternationals/CatchUp/CatchUp.Core/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/Andreas/TheInternationals/CatchUp/CatchUp.Core/bin/Debug/CatchUp.Core.dll.mdb
+/Users/Andreas/TheInternationals/CatchUp/CatchUp.Core/bin/Debug/CatchUp.Core.dll
+/Users/Andreas/TheInternationals/CatchUp/CatchUp.Core/obj/Debug/CatchUp.Core.dll
+/Users/Andreas/TheInternationals/CatchUp/CatchUp.Core/obj/Debug/CatchUp.Core.dll.mdb
+/Users/Andreas/TheInternationals/CatchUp/CatchUp.Core/bin/Debug/MvvmCross.Platform.dll
+/Users/Andreas/TheInternationals/CatchUp/CatchUp.Core/bin/Debug/MvvmCross.Core.dll
+/Users/Andreas/TheInternationals/CatchUp/CatchUp.Core/bin/Debug/MvvmCross.Binding.dll
+/Users/Andreas/TheInternationals/CatchUp/CatchUp.Core/bin/Debug/MvvmCross.Localization.dll
