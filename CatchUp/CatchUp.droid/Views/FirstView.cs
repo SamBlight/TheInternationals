@@ -10,7 +10,8 @@ namespace CatchUp.droid.Views
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.FirstView);
+			//Andreas: SetContentView(Resource.Layout.Options);
+			SetContentView(Resource.Layout.Options);
         }
     }
 }

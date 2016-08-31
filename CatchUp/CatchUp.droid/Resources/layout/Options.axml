@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    tools:gridSpec="1|8|#0093eeff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r">
+    <TextView
+        android:text="Options"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/textView1"
+        android:background="#ff07a7a5"
+        android:alpha="95"
+        android:textColor="#ff101010"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textAppearance="@android:style/TextAppearance.Material.Headline"
+        android:gravity="center" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout1"
+            android:background="#ff101010"
+            android:alpha="84"
+            android:scrollIndicators="right">
+            <TextView
+                android:text="Mode:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="#ffb3b5b5"
+                android:layout_marginBottom="10dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:padding="1dp"
+                android:background="#c013a8a6">
+                <Button
+                    android:text="Don't Disturb"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/button1"
+                    android:textColor="#ffc9c9c9"
+                    android:background="#0213a8a6"
+                    local:MvxBind="Click BtnDisturbCommand" />
+                <Button
+                    android:text="Normal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/button2"
+                    android:textColor="#ffb3b5b5"
+                    android:background="#ff101010"
+                    local:MvxBind="Click BtnNormalCommand" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#74ffffff"
+                android:layout_margin="10dp" />
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/switch1"
+                android:text="Vibration"
+                android:textColor="#ffb3b5b5"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                local:MvxBind="Click BtnVibrationCommand" />
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/switch2"
+                android:text="Sound"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffb3b5b5"
+                android:textSize="16dp"
+                local:MvxBind="Click BtnSoundCommand" />
+            <TextView
+                android:text="Automatic response text:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textColor="#ffb3b5b5"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp" />
+            <EditText
+                android:inputType="textMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:background="#b2302f30"
+                android:textColor="#ff888888"
+                android:text="Input text"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="3dp"
+                android:minHeight="80dp"
+                android:ellipsize="none"
+                android:gravity="top"
+                local:MvxBind="Text Action, Mode=OneWay" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#74ffffff"
+                android:layout_margin="10dp"
+                android:id="@+id/view1" />
+            <TextView
+                android:text="The text written here will automatically be sent if the &quot;Don't Disturb&quot; mode is activated, or if the &quot;Busy&quot; button of a new request is clicked. "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textColor="#ffb3b5b5"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:textSize="13dp" />
+            <TextView
+                android:text="User Settings:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="#ffb3b5b5"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+                <TextView
+                    android:text="First Name:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView6"
+                    android:textColor="#ffb3b5b5"
+                    android:gravity="center"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="0dp"
+                    android:textStyle="bold"
+                    android:background="#ff101010"
+                    android:layout_marginTop="1dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="2dp" />
+                <EditText
+                    android:inputType="textPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editText2"
+                    android:text="John"
+                    android:textColor="#ffb3b5b5"
+                    android:textSize="16dp"
+                    android:background="#ff101010"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:padding="4dp"
+                    local:MvxBind="Text Firstname, Mode=OneWayToSource" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/linearLayout3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Last Name:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView7"
+                    android:textColor="#ffb3b5b5"
+                    android:gravity="center"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="0dp"
+                    android:textStyle="bold"
+                    android:background="#ff101010"
+                    android:layout_marginTop="1dp"
+                    android:paddingTop="4dp"
+                    android:paddingRight="4dp"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="2dp" />
+                <EditText
+                    android:inputType="textPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editText3"
+                    android:text="Doe"
+                    android:textColor="#ffb3b5b5"
+                    android:textSize="16dp"
+                    android:background="#ff101010"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:padding="4dp"
+                    local:MvxBind="Text Lastname, Mode=OneWayToSource" />
+            </LinearLayout>
+            <Button
+                android:text="Save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button3"
+                android:background="#ff1fb5a9"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                local:MvxBind="Click BtnSaveCommand" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
