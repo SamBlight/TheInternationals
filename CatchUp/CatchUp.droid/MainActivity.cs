@@ -16,11 +16,11 @@ namespace CatchUp.droid
 			// Set our view from the "main" layout resource
 			SetContentView(Resource.Layout.Main);
 
-			// Get our button from the layout resource,
-			// and attach an event to it
+            // Get our button from the layout resource,
+            // and attach an event to it
 			Button button = FindViewById<Button>(Resource.Id.myButton);
 
-			button.Click += delegate { button.Text = string.Format("{0} clicks! HAHAHA :O", count++); };
+			button.Click += delegate { button.Text = string.Format("Message Sent", count++); };
 		}
 	}
 }

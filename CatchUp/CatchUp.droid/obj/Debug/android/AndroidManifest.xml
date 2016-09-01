@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.theinternationals.catchup">
   <!--suppress UsesMinSdkAttributes-->
-  <uses-sdk android:minSdkVersion="21" />
+  <uses-sdk android:minSdkVersion="23" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:name="android.app.Application" android:debuggable="true">
@@ -11,13 +11,13 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="View for FirstViewModel" android:name="md5fbfd07997291dfc6b2375348463ba57f.FirstView" />
     <activity android:icon="@mipmap/icon" android:label="CatchUp.droid" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Theme.Splash" android:name="md572908283645bd738c6931db4169c60a0.SplashScreen">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="View for FirstViewModel" android:name="md5fbfd07997291dfc6b2375348463ba57f.FirstView" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.theinternationals.catchup.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
