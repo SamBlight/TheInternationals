@@ -14,11 +14,11 @@ namespace CatchUp.droid
 			base.OnCreate(savedInstanceState);
 
 			// Set our view from the "main" layout resource
-			SetContentView(Resource.Layout.Main);
+			SetContentView(Resource.Layout.Request);
 
             // Get our button from the layout resource,
             // and attach an event to it
-			Button button = FindViewById<Button>(Resource.Id.myButton);
+			Button button = FindViewById<Button>(Resource.Id.Send);
 
 			button.Click += delegate { button.Text = string.Format("Message Sent", count++); };
 		}

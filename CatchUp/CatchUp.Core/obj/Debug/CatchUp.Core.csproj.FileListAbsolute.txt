@@ -19,3 +19,9 @@ D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.Core\obj\Debug\CatchUp.Core.dll
 D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.Core\bin\Debug\CatchUp.Core.dll.mdb
 D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.Core\obj\Debug\CatchUp.Core.dll.mdb
 D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.Core\bin\Debug\CatchUp.Core.dll.mdb
+D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.Core\obj\Debug\CatchUp.Core.dll.mdb
+D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.Core\bin\Debug\CatchUp.Core.dll.mdb
+D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.Core\obj\Debug\CatchUp.Core.dll.mdb
+D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.Core\bin\Debug\CatchUp.Core.dll.mdb
+D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.Core\obj\Debug\CatchUp.Core.dll.mdb
+D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.Core\bin\Debug\CatchUp.Core.dll.mdb

@@ -61,5 +61,6 @@ D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\android\assets\
 D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
 D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\android\assets\System.Xml.dll.mdb
+D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\res\layout\request.xml
 D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\CatchUp.droid.dll.mdb
 D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\bin\Debug\CatchUp.droid.dll.mdb

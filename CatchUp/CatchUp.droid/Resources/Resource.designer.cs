@@ -108,6 +108,9 @@ namespace CatchUp.droid
 			// aapt resource value: 0x7f050001
 			public const int MvxBindingTagUnique = 2131034113;
 			
+			// aapt resource value: 0x7f05000c
+			public const int Send = 2131034124;
+			
 			// aapt resource value: 0x7f050005
 			public const int checkBox1 = 2131034117;
 			
@@ -158,7 +161,10 @@ namespace CatchUp.droid
 			public const int Main = 2130968577;
 			
 			// aapt resource value: 0x7f040002
-			public const int SplashScreen = 2130968578;
+			public const int Request = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int SplashScreen = 2130968579;
 			
 			static Layout()
 			{
