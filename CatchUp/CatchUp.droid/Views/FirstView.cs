@@ -11,7 +11,9 @@ namespace CatchUp.droid.Views
         {
             base.OnCreate(bundle);
 			//Andreas: SetContentView(Resource.Layout.Options);
-			SetContentView(Resource.Layout.Options);
+			//Marie: SetContentView(Resource.Layout.Response);
+			//Samuel: SetContentView(Resource.Layout.Response);
+			SetContentView(Resource.Layout.Response);
         }
     }
 }

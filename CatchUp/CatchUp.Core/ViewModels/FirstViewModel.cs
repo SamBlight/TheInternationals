@@ -1,7 +1,7 @@
 using MvvmCross.Core.ViewModels;
 using System.Windows.Input;
 
-// Author: Andreas Andersson n9795383
+// Author: Andreas Andersson n9795383, Marie-Luise Lux n9530801, Samuel Blight n8312885
 
 namespace CatchUp.Core.ViewModels
 {
@@ -56,13 +56,54 @@ namespace CatchUp.Core.ViewModels
 				}
 			}
 		}
+		//End of Andreas Code
+
+		//Code Marie
+
+		private string responseText = "This is a example Text. If you press the \"send\" button it will change.";
+		public string ResponseText
+		{
+			get { return responseText; }
+			set
+			{
+				if (value != null && value != responseText)
+				{
+					responseText = "You have just clicked the send button.";
+					RaisePropertyChanged(() => ResponseText);
+				}
+			}
+		}
+		//End of Marie's Code.
+
+		//Code Samuel
+   
+		private string sendReqText = "Send";
+		private int count = 0;
+		public string SendReqText
+		{
+			get { return sendReqText; }
+			set
+			{
+				count++;
+				sendReqText = value+ count;
+					RaisePropertyChanged(() => SendReqText);
+			}
+		}
+		//End of Samuel's Code.
 
 		public ICommand BtnSaveCommand { get; private set; }
 		public ICommand BtnDisturbCommand { get; private set; }
 		public ICommand BtnNormalCommand { get; private set; }
 		public ICommand BtnVibrationCommand { get; private set; }
 		public ICommand BtnSoundCommand { get; private set; }
+		//Marie Code
+		public ICommand SendResponse { get; private set; }
+		//End of Marie's Code
+		//Samuel's Code
+		public ICommand BtnSendReqCommand { get; private set; }
+		//End of Samuel's Code
 
+		//Andreas Code
 		private bool sound;
 		private bool vibration;
 
@@ -109,9 +150,26 @@ namespace CatchUp.Core.ViewModels
 					Action = "Sound On!";
 				}
 			});
+			//End of Andreas Code.
+
+			//Marie Code
+			SendResponse = new MvxCommand(() =>
+			{
+			ResponseText = "Save Button was pressed!";
+				});
+			//End of Marie's Code
+
+			//Samuel's Codee
+			BtnSendReqCommand = new MvxCommand(() =>
+			{
+				SendReqText = "Message Sent!";
+			});
+			//End of Samuel's Code
 
 		}
 
 
 	}
 }
+
+
