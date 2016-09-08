@@ -1,27 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:local="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     android:minWidth="25px"
-    android:minHeight="25px">
+    android:minHeight="25px"
+    tools:gridSpec="1|8|#0093eeff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r">
     <TextView
-        android:text="Request"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Notifications"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:id="@+id/textView1"
-        android:layout_marginLeft="0.0dp" />
+        android:alpha="95"
+        android:textColor="#ffeae6e6"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textAppearance="@android:style/TextAppearance.Material.Headline"
+        android:gravity="center" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#74ffffff"
+        android:layout_margin="0dp" />
     <TextView
         android:text="To:"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#ffeae6e6"
         android:id="@+id/textView3" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#ffeae6e6"
         android:id="@+id/editText2"
         android:layout_marginBottom="0.0dp" />
     <CheckBox
@@ -29,37 +43,38 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/checkBox1"
+        android:textColor="#ffeae6e6"
         android:layout_marginLeft="0.0dp" />
     <CheckBox
         android:text="Calender"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#ffeae6e6"
         android:id="@+id/checkBox2" />
     <CheckBox
         android:text="Attact my calender"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#ffeae6e6"
         android:id="@+id/checkBox3" />
     <TextView
         android:text="Message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#ffeae6e6"
         android:id="@+id/textView2" />
     <EditText
         android:inputType="textMultiLine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editText1"
+        android:textColor="#ffeae6e6"
         android:layout_marginBottom="51.0dp" />
     <Button
         android:id="@+id/Send"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#ffeae6e6"
+        android:background="#a7fd097a"
         local:MvxBind="Click BtnSendReqCommand; Text SendReqText, Mode=OneWay" />
-    <GridView
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/gridView1" />
 </LinearLayout>

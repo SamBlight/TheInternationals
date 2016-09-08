@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView1"
+        android:scaleType="center"
+        android:layout_marginTop="100dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="70dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+            <Button
+                android:text="Request"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:id="@+id/button1"
+                android:background="#61ffffff"
+                android:textColor="#fffff6ef"
+                android:textSize="18dp" />
+            <Button
+                android:text="Notifications"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:id="@+id/button2"
+                android:background="#61ffffff"
+                android:textColor="#fffff6ef"
+                android:textSize="18dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+            <Button
+                android:text="Contacts"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:id="@+id/button1"
+                android:background="#61ffffff"
+                android:textColor="#fffff6ef"
+                android:textSize="18dp" />
+            <Button
+                android:text="Options"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:id="@+id/button2"
+                android:background="#61ffffff"
+                android:textColor="#fffff6ef"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

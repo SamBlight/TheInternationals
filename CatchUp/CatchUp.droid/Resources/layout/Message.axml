@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    tools:gridSpec="1|8|#0093eeff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r">
+    <TextView
+        android:text="Messages to"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/textView1"
+        android:alpha="95"
+        android:textColor="#ffeae6e6"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textAppearance="@android:style/TextAppearance.Material.Headline"
+        android:gravity="center" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#74ffffff"
+        android:layout_margin="0dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/linearLayout1"
+        android:background="#22ffffff"
+        android:layout_margin="5dp">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" />
+        <Button
+            android:text="Send Response"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:background="#a7fd097a"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffeae6e6" />
+    </LinearLayout>
+</LinearLayout>

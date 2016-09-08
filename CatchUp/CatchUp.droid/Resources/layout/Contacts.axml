@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    tools:gridSpec="1|8|#0093eeff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:padding="1dp">
+        <TextView
+            android:text="Contacts"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/textView1"
+            android:textColor="#ffeae6e6"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="50dp" />
+        <ImageButton
+            android:id="@+id/img_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:src="@android:drawable/ic_menu_add"
+            android:background="#02ffffff"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#74ffffff"
+        android:layout_margin="0dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/linearLayout1"
+        android:background="#22ffffff"
+        android:layout_margin="5dp">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:scrollIndicators="right" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#74ffffff"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        android:background="#22ffffff"
+        android:layout_margin="5dp">
+        <TextView
+            android:text="Requests:"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/textView1"
+            android:textColor="#ffeae6e6"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline"
+            android:gravity="left" />
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:scrollIndicators="right" />
+    </LinearLayout>
+</LinearLayout>
