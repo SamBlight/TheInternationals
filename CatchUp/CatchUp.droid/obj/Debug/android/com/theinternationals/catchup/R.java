@@ -72,12 +72,23 @@ containing a value of this type.
     public static final class id {
         public static final int MvvmCrossTagId=0x7f050000;
         public static final int MvxBindingTagUnique=0x7f050001;
-        public static final int myButton=0x7f050002;
+        public static final int Send=0x7f05000c;
+        public static final int checkBox1=0x7f050005;
+        public static final int checkBox2=0x7f050006;
+        public static final int checkBox3=0x7f050007;
+        public static final int editText1=0x7f050009;
+        public static final int editText2=0x7f050004;
+        public static final int gridView1=0x7f05000b;
+        public static final int myButton=0x7f05000a;
+        public static final int textView1=0x7f050002;
+        public static final int textView2=0x7f050008;
+        public static final int textView3=0x7f050003;
     }
     public static final class layout {
         public static final int firstview=0x7f040000;
         public static final int main=0x7f040001;
-        public static final int splashscreen=0x7f040002;
+        public static final int request=0x7f040002;
+        public static final int splashscreen=0x7f040003;
     }
     public static final class mipmap {
         public static final int icon=0x7f030000;

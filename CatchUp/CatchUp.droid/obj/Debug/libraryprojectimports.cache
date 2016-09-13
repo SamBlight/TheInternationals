@@ -2,22 +2,22 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>/Users/Andreas/TheInternationals/CatchUp/CatchUp.droid/obj/Debug/__library_projects__/MvvmCross.Platform.Droid/library_project_imports/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/Andreas/TheInternationals/CatchUp/CatchUp.droid/obj/Debug/__library_projects__/MvvmCross.Droid/library_project_imports/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/Andreas/TheInternationals/CatchUp/CatchUp.droid/obj/Debug/__library_projects__/MvvmCross.Droid.Shared/library_project_imports/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/Andreas/TheInternationals/CatchUp/CatchUp.droid/obj/Debug/__library_projects__/MvvmCross.Binding.Droid/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\__library_projects__\MvvmCross.Binding.Droid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\__library_projects__\MvvmCross.Droid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\__library_projects__\MvvmCross.Droid.Shared\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\__library_projects__\MvvmCross.Platform.Droid\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>/Users/Andreas/TheInternationals/CatchUp/CatchUp.droid/obj/Debug/__library_projects__/MvvmCross.Platform.Droid/library_project_imports/assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>/Users/Andreas/TheInternationals/CatchUp/CatchUp.droid/obj/Debug/__library_projects__/MvvmCross.Droid/library_project_imports/assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>/Users/Andreas/TheInternationals/CatchUp/CatchUp.droid/obj/Debug/__library_projects__/MvvmCross.Droid.Shared/library_project_imports/assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>/Users/Andreas/TheInternationals/CatchUp/CatchUp.droid/obj/Debug/__library_projects__/MvvmCross.Binding.Droid/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\__library_projects__\MvvmCross.Binding.Droid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\__library_projects__\MvvmCross.Droid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\__library_projects__\MvvmCross.Droid.Shared\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\__library_projects__\MvvmCross.Platform.Droid\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>/Users/Andreas/TheInternationals/CatchUp/CatchUp.droid/obj/Debug/__library_projects__/MvvmCross.Platform.Droid.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/Andreas/TheInternationals/CatchUp/CatchUp.droid/obj/Debug/__library_projects__/MvvmCross.Droid.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/Andreas/TheInternationals/CatchUp/CatchUp.droid/obj/Debug/__library_projects__/MvvmCross.Droid.Shared.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/Andreas/TheInternationals/CatchUp/CatchUp.droid/obj/Debug/__library_projects__/MvvmCross.Binding.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\__library_projects__\MvvmCross.Binding.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\__library_projects__\MvvmCross.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\__library_projects__\MvvmCross.Droid.Shared.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\UNI PROJECT\TheInternationals\CatchUp\CatchUp.droid\obj\Debug\__library_projects__\MvvmCross.Platform.Droid.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>
