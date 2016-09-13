@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="CatchUp.Core/MyClass.cs" Line="1" Column="1" />
-      <File FileName="CatchUp.droid/MainActivity.cs" Line="25" Column="4" />
+      <File FileName="CatchUp.droid/MainActivity.cs" Line="25" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -10,5 +10,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.CatchUp.droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar" />
+  <MonoDevelop.Ide.ItemProperties.CatchUp.droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 4 (Marshmallow)" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar" />
 </Properties>
